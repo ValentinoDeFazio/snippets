@@ -1,3 +1,3 @@
 # Snippets
 
-[![banner](/_/assets/banner.png)](https://github.com/ValentinoDeFazio/snippets)
+[![banner](/_/assets/images/banner.png)](https://github.com/ValentinoDeFazio/snippets)
