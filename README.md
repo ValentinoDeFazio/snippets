@@ -1,6 +1,6 @@
 # Snippets
 
-[![banner](./_/assets/images/snippets_banner.png)](#)
+[![banner](./_/assets/images/banners/snippets.png)](#)
 
 ## Indice
 
