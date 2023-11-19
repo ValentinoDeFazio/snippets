@@ -1,6 +1,6 @@
 # Snippets
 
-[![banner](./_/assets/images/snippets_banner.png)](https://github.com/ValentinoDeFazio/snippets)
+[![banner](./_/assets/images/snippets_banner.png)](#)
 
 ## Indice
 
