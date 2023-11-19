@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>Header</title>
+
+        <!-- Assicuriamo uniformità di stile tra browser -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+        <!-- Importiamo il CSS -->
+        <link href="css/stile.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header id="header">
+            Header
+        </header>
+
+        <!-- Pagina 1 -->
+        <div class="page" style="background-color: lightseagreen;">1</div>
+
+        <!-- Pagina 2 -->
+        <div class="page" style="background-color: crimson;">2</div>
+
+        <!-- Pagina 3 -->
+        <div class="page" style="background-color: yellowgreen;">3</div>
+
+        <!-- Logica -->
+        <script type="text/javascript">
+
+            // Attendiamo che la pagina venga completamente caricata
+            document.addEventListener('DOMContentLoaded', function () {
+
+                // Prendiamo l'header
+                const pageHeader = document.getElementById('header');
+
+                // Il codice all'interno della funzione verrà eseguito
+                // ogni volta che l'utente scorre la finestra del browser
+                window.addEventListener('scroll', function () {
+
+                    // Prendiamo l'offset verticale della finestra del browser
+                    const scrollY = window.scrollY;
+
+                    if (scrollY >= pageHeader.offsetHeight) {
+                        // L'header non si vede più: fissiamolo in alto
+                        pageHeader.classList.add('sticky');
+                    } else {
+                        // L'header è nuovamente visibile: rimettiamolo
+                        // nella sua posizione originale
+                        pageHeader.classList.remove('sticky');
+                    }
+                });
+            });
+
+        </script>
+
+    </body>
+
+</html>
